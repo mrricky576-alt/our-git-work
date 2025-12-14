@@ -1,0 +1,171 @@
+{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "franklin gothic medium", "arial narrow", arial, sans-serif;
+    
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-color: rgb(53, 150, 230);
+    padding: 10px o;
+}
+nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: blue;
+    z-index: 99;
+    margin-left: 100;
+}
+.nav_content{
+    max-width: var(--max-width);
+    padding: 1.srem 1rem;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+nav.logo a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: red;
+    text-decoration: 0.3s;
+
+}
+nav .logo a:hover{
+    color: blue;
+
+}
+ul{
+    display: flex;
+    list-style: none;
+    align-items: none;
+    gap: 1rem;
+    transition: left 0.3s;
+    top:85px;
+}
+ul li{
+    margin-left: 20px;
+
+}
+ul li{
+    padding: 0.5rem 1rem;
+    border: 2px solid transparent;
+    text-decoration: none;
+    font-weight: 600;
+    color: aliceblue;
+    transition: color 0.3s;
+
+}
+ul li a:hover{
+    color:black;
+}
+.section{
+    background-color:black;
+
+}
+.section_contianer{
+    min-height: 30hv;
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 4rem;
+    text-align: center;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.subtitle{
+    letter-spacing: 1px;
+    color: rgb(69, 44,8);
+    font-weight: 600;
+    margin-bottom: o.5rem;
+    font-family: "times new roman", times, serif;
+
+}
+.title{
+    font-size: 2.rem;
+    font-weight: 300;
+    line-height: 3rem;
+    color: black;
+    margin-bottom: 1rem;
+
+}
+.description{
+    line-height: 1.5rem;
+    color: black;
+    margin-bottom: 2rem;
+}
+.section_btns{
+    display: flex;
+    gap: 1rem;
+
+}
+.section_btns bottom{
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 1rem 2rem;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: o.3s;
+    cursor: pointer;
+
+}
+.hire_me{
+    background-color: rgb(69, 44,8);
+    color: aliceblue;
+
+}
+.hire_me:hover{
+    background-color: rgb(o, 0, 255, o.219);
+
+}
+.portfolio{
+    background-color: rgb(69, 44,8);
+    color: aliceblue;
+
+}
+.portfolio:hover{
+    background-color: rgb(69, 44,8);
+
+}
+.image{
+    display: grid;
+
+}
+.image img{
+    width: 250px;
+    height: 250px;
+    border-radius: 20%;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.footer-container{
+    position: absolute;
+    bottom: 0;
+    height: 2.5rem;
+    width: 100%;
+    padding: 10px;
+    margin: auto;
+    background-color: #140101;
+    color: white;
+    text-align: center;
+}

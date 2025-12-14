@@ -1,0 +1,74 @@
+Deployment Models of Cloud Computing
+
+Cloud deployment models describe how cloud services are made available to users. There are four main models:
+
+⸻
+
+1. Public Cloud
+
+Definition:
+A cloud environment owned and managed by a third-party provider and shared by many users.
+
+Examples:
+Amazon Web Services (AWS), Microsoft Azure, Google Cloud.
+
+Features:
+	•	Accessible over the internet
+	•	Pay-as-you-go
+	•	No setup cost
+	•	Highly scalable
+
+When used:
+Startups, small businesses, general web hosting.
+
+⸻
+
+2. Private Cloud
+
+Definition:
+A cloud environment dedicated to a single organization. It can be managed internally or by a third party.
+
+Examples:
+Banks, government institutions, large organizations.
+
+Features:
+	•	Higher security
+	•	Full control
+	•	Customizable
+
+When used:
+Organizations handling sensitive data (finance, health, government).
+
+⸻
+
+3. Hybrid Cloud
+
+Definition:
+A combination of public and private clouds working together.
+
+How it works:
+Sensitive data stays on a private cloud while less critical applications run on a public cloud.
+
+Features:
+	•	Flexible
+	•	Cost-effective
+	•	Allows data portability
+
+When used:
+Companies needing both security and scalability.
+
+⸻
+
+4. Community Cloud
+
+Definition:
+Shared cloud infrastructure for a specific group of organizations with similar needs.
+
+Examples:
+Educational institutions sharing resources
+Medical organizations sharing patient systems
+
+Features:
+	•	Shared cost
+	•	Common security policies
+	•	Collaboration-friendly
