@@ -1,0 +1,32 @@
+h1{
+    color: blue;
+}
+body{
+    background-color: cornflowerblue;
+}
+.img{
+    border: 5px solid #333;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 1;
+
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px; 
+    margin: 60px auto;
+    padding: 0 50px;
+    flex-wrap: wrap;
+
+}
+hero-flex{
+    flex: 1;
+    min-width: 300px;
+}
+
+}
+
+}
