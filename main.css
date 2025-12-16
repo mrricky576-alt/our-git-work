@@ -20,7 +20,7 @@ nav{
     position: fixed;
     top: 0;
     left: 0;
-    background-color: blue;
+    background-color:orange;
     z-index: 99;
     margin-left: 100;
 }
